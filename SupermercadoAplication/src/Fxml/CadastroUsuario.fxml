@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #BA55D3;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controladores.CadastroUsuarioController">
+   <children>
+      <Button fx:id="cadastrarButton" layoutX="468.0" layoutY="343.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="118.0" style="-fx-background-color: #4876FF;" text="Cadastrar" textFill="WHITE" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <TextField fx:id="emailInput" layoutX="197.0" layoutY="128.0" prefHeight="11.0" prefWidth="355.0" promptText="exemplo: sabrina@email.com" />
+      <TextField fx:id="cpfInput" layoutX="197.0" layoutY="169.0" prefHeight="11.0" prefWidth="355.0" promptText="somente numeros" />
+      <TextField fx:id="senhaInput" layoutX="197.0" layoutY="212.0" prefHeight="11.0" prefWidth="355.0" promptText="crie uma senha para seu cadastro" />
+      <TextField fx:id="confSenhaInput" layoutX="197.0" layoutY="253.0" prefHeight="11.0" prefWidth="355.0" promptText="digite novamente sua senha" />
+      <Text fill="WHITE" layoutX="14.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cadastre-se">
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font>
+      </Text>
+      <Label layoutX="128.0" layoutY="88.0" text="Nome" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="133.0" layoutY="127.0" text="Email" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="145.0" layoutY="169.0" text="CPF" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="128.0" layoutY="212.0" text="Senha " textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="253.0" text="Confirmar Senha" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nomeInput" layoutX="197.0" layoutY="89.0" prefHeight="11.0" prefWidth="355.0" promptText="Informe seu nome completo" />
+      <Button fx:id="voltarButton" layoutX="21.0" layoutY="345.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="118.0" style="-fx-background-color: #4876FF;" text="Voltar" textFill="WHITE" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

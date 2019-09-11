@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controladores.LoginUsuarioController">
+   <children>
+      <Button id="botao" fx:id="entrarButton" layoutX="224.0" layoutY="329.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="152.0" style="-fx-background-color: #4876FF;" text="Entrar" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font>
+      </Button>
+      <TextField fx:id="contaInput" layoutX="157.0" layoutY="213.0" prefHeight="25.0" prefWidth="286.0" promptText="email ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="150.0" fitWidth="238.0" layoutX="124.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true" />
+      <Text fill="#650065" layoutX="194.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Controle de Estoque" wrappingWidth="213.0">
+         <font>
+            <Font name="Microsoft New Tai Lue Bold" size="39.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="senhaInput" layoutX="226.0" layoutY="274.0" />
+      <Label layoutX="72.0" layoutY="210.0" text="Conta" textFill="#4a4747">
+         <font>
+            <Font name="Arial Black" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="136.0" layoutY="268.0" text="Senha" textFill="#4a4747">
+         <font>
+            <Font name="Arial Black" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

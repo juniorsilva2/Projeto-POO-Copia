@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controladores.AtualiazarUsuarioController">
+   <children>
+      <Button fx:id="salvarButton" layoutX="423.0" layoutY="333.0" mnemonicParsing="false" style="-fx-background-color: #4876FF;" text="Salvar Alterações" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="voltarButton" layoutX="29.0" layoutY="333.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="69.0" style="-fx-background-color: #4876FF;" text="Voltar" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Button>
+      <TextField id="nome" fx:id="nomeInput" layoutX="160.0" layoutY="67.0" prefHeight="25.0" prefWidth="313.0">
+         <effect>
+            <Blend />
+         </effect></TextField>
+      <TextField id="CPF" fx:id="cpfInput" layoutX="160.0" layoutY="175.0" prefHeight="25.0" prefWidth="313.0" />
+      <TextField id="senha" fx:id="senhaInput" layoutX="160.0" layoutY="222.0" prefHeight="25.0" prefWidth="313.0" />
+      <TextField id="conta" fx:id="contaInput" layoutX="160.0" layoutY="122.0" prefHeight="25.0" prefWidth="313.0" />
+      <Label layoutX="90.0" layoutY="66.0" text="Nome">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="90.0" layoutY="121.0" text="Conta">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="108.0" layoutY="174.0" text="CPF">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="89.0" layoutY="221.0" text="Senha">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
